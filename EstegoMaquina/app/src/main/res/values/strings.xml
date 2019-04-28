@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EstegoMaquina</string>
+    <string name="BTN_sacar_foto">SACAR FOTO</string>
+    <string name="text1">Permite sacar una foto y procesarla eliminando sus metadatos pero sin perderlos.</string>
+    <string name="BTN_seleccionar_desde_archivo">SELECCIONAR\nDESDE ARCHIVO</string>
+    <string name="text2">Permite seleccionar una o varias imágenes desde el dispositivo y procesarlas eliminando sus metadatos pero sin perderlos.</string>
+    <string name="BTN_auto">MODO\nAUTOMÁTICO</string>
+    <string name="text3">Permite ejecutar un servicio que procesará automáticamente las imágenes nuevas añadidas al directorio de la Cámara</string>
+    <string name="BTN_reestablecer">REESTABLECER\nIMAGEN</string>
+    <string name="text4">Permite reestabler los metadatos de una imágen anteriormente procesada con esta aplicación.</string>
+    <string name="BTN_visualizar">VISUALIZAR\nMETADATOS</string>
+    <string name="text5">Permite visualizar los metadatos de una imagen procesada con esta aplicación.</string>
+    <string name="TIT_Info">INFORMACIÓN DE USO</string>
+    <string name="BTN_info">INFORMACIÓN\nDE USO</string>
+    <string name="TIT_menuPrincipal">MENÚ PRINCIPAL</string>
+    <string name="text_visualizar1">Seleccione una imagen</string>
+</resources>

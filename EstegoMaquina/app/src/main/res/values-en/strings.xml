@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EstegoMaquina</string>
+    <string name="BTN_sacar_foto">TAKE PICTURE</string>
+    <string name="text1">It allows to take a photo and process it eliminating its metadata but without losing them.</string>
+    <string name="BTN_seleccionar_desde_archivo">SELECT\nFROM FILE</string>
+    <string name="text2">It allows to select one or several images of the device and process them eliminating their metadata but without losing them.</string>
+    <string name="BTN_auto">AUTOMATIC\nMODE</string>
+    <string name="text3">Allows you to run a service that will automatically process new images added to the Camera directory.</string>
+    <string name="BTN_reestablecer">RESET\nIMAGE</string>
+    <string name="text4">It allows to reestablish the metadata of an image previously processed with this application.</string>
+    <string name="BTN_visualizar">VIEW\nMETADATES</string>
+    <string name="text5">It allows to visualize the metadata of an image processed with this application.</string>
+    <string name="TIT_Info">INFORMATION OF USE</string>
+    <string name="BTN_info">INFORMATION\nOF USE</string>
+    <string name="TIT_menuPrincipal">MAIN MENU</string>
+    <string name="text_visualizar1">Select an image</string>
+</resources>

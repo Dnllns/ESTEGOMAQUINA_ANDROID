@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.dalonsobascones.estegoMaquina.vista.MenuPrincipal">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/TIT_menuPrincipal"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_SacarFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_camera"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_sacar_foto"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BTN_MenuPrincipal_SeleccionarFoto" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_SeleccionarFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_anadir"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_seleccionar_desde_archivo"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_MenuPrincipal_LanzarServicio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/BTN_MenuPrincipal_SacarFoto"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ProgressBar
+        android:id="@+id/PBAR_MenuPrincipal_Progreso"
+        style="@android:style/Widget.Material.Light.ProgressBar.Large"
+        android:layout_width="0dp"
+        android:layout_height="100px"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:max="100"
+        android:progress="20"
+        android:progressBackgroundTint="@color/colorPrimaryDark"
+        android:theme="@style/AlertDialog.AppCompat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTN_MenuPrincipal_MenuVisualizar" />
+
+    <TextView
+        android:id="@+id/TV__MenuPrincipal_EstadoProcesado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PBAR_MenuPrincipal_Progreso" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_Reestablecer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_reestablecer"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_reestablecer"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTN_MenuPrincipal_SacarFoto" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_LanzarServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_auto"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_auto"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BTN_MenuPrincipal_SeleccionarFoto" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_MenuVisualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_visualizar"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_visualizar"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_MenuPrincipal_MenuInformacion"
+        app:layout_constraintStart_toEndOf="@+id/BTN_MenuPrincipal_Reestablecer"
+        app:layout_constraintTop_toTopOf="@+id/BTN_MenuPrincipal_Reestablecer" />
+
+    <Button
+        android:id="@+id/BTN_MenuPrincipal_MenuInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ico_info"
+        android:fontFamily="@font/wellfleet"
+        android:text="@string/BTN_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BTN_MenuPrincipal_MenuVisualizar" />
+
+</android.support.constraint.ConstraintLayout>
