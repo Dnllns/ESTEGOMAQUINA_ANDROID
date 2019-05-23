@@ -1,8 +1,9 @@
-Proyecto dado por finalizado
+#EstegoMaquina Android
 
-First APK release
-https://mega.nz/#!qjIgnYpR
+###Proyecto dado por finalizado
 
+##First APK release
+https://mega.nz/#!izwQHQzY!tS_NrEucj5wcNzl79Btb4wnEMuc0sFoohaPeYLmsx2k
 
-DOCUMENTACION, CODIGO FUENTE Y APK
+##DOCUMENTACION, CODIGO FUENTE Y APK
 https://www.dropbox.com/s/wsf2vcpzigenkba/EstegoMaquina_Proyecto_DAM_DanielAlonso.rar?dl=0
